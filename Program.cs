@@ -7,8 +7,8 @@ namespace CSharpIntro
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World! Säger Pappa");
-            var p = new Pappa();
-            System.Console.WriteLine(p.Säger());
+            
+            System.Console.WriteLine((new Pappa()).Säger());
         }
     }
 }
